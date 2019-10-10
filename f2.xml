@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DATA>
+  <Function>
+    <Zero>(m.cos(m.pi*x))/(m.cosh(x))</Zero>
+    <One>(-m.pi*m.sin(m.pi*x)-m.cos(m.pi*x)*m.tanh(x))/(m.cosh(x))</One>
+  </Function>
+  <Interval>
+    <Start>-4</Start>
+    <End>4</End>
+  </Interval>
+</DATA>

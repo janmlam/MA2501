@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DATA>
+  <Dimension>3</Dimension>
+  <Function>X[0]*X[1]*X[2]-X[0]**2-X[1]**2-X[2]**2</Function>
+  <Gradient>
+    <D1>X[1]*X[2]-2*X[0]</D1>
+    <D2>X[0]*X[2]-2*X[1]</D2>
+    <D3>X[0]*X[1]-2*X[2]</D3>
+  </Gradient>
+  <Hessian>
+    <H11>-2</H11> 
+    <H22>-2</H22>
+    <H33>-2</H33>
+    <H12>X[2]</H12>
+    <H13>X[1]</H13>
+    <H23>X[0]</H23>
+  </Hessian>
+</DATA>

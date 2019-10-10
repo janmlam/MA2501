@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DATA>
+  <Function>
+    <Zero>((2*x*x)-1)/((x*x*x*x)+1)</Zero>
+    <One>((x*x*x*x)+1)*((x*x*x*x)+1)</One>
+  </Function>
+  <Interval>
+    <Start>-10</Start>
+    <End>10</End>
+  </Interval>
+</DATA>
